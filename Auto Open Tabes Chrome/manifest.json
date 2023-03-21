@@ -1,0 +1,21 @@
+{
+    "name": "Youtube Automatic Open",
+    "version": "1.0.0.6",
+    "description": "Inicia o Chrome Na Pagina Do YT",
+    "permissions": [
+      "tabs"
+    ],
+    "icons": {
+      "16": "images/icons/icon-16x16.png",
+      "48": "images/icons/icon-48x48.png",
+      "128": "images/icons/icon-128x128.png"
+
+    },
+    "background": {
+        "scripts": ["auto-script.js"],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "minimum_chrome_version": "29"
+  }
+  
